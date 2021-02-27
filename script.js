@@ -17,7 +17,7 @@ document.querySelector('.check').addEventListener('click', function () {
     displayMessage('⚠ Son tanlanmadi');
     // When player wins
   } else if (guess === secretNumber) {
-    displayMessage("🎉 To'g'ri. Siz topdingiz !");
+    displayMessage("🎉 To'g'ri. Siz topdingiz");
     document.querySelector('body').style.backgroundColor = '#60b347';
     document.querySelector('.number').textContent = secretNumber;
 
